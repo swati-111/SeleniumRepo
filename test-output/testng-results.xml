@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T09:40:28 CST" name="DebugTest" finished-at="2024-01-13T09:40:33 CST" duration-ms="5078">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T09:40:28 CST" name="PositiveTests" finished-at="2024-01-13T09:40:33 CST" duration-ms="5078">
+      <class name="com.herokuapp.theinetrnet.ExceptionsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.herokuapp.theinetrnet.ExceptionsTest@5c33f1a9]" started-at="2024-01-13T09:40:28 CST" name="setUp" finished-at="2024-01-13T09:40:33 CST" duration-ms="4447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidElementStateExceptionTest()[pri:0, instance:com.herokuapp.theinetrnet.ExceptionsTest@5c33f1a9]" started-at="2024-01-13T09:40:33 CST" name="invalidElementStateExceptionTest" finished-at="2024-01-13T09:40:33 CST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidElementStateExceptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinetrnet.ExceptionsTest@5c33f1a9]" started-at="2024-01-13T09:40:33 CST" name="tearDown" finished-at="2024-01-13T09:40:33 CST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinetrnet.ExceptionsTest -->
+    </test> <!-- PositiveTests -->
+  </suite> <!-- DebugTest -->
+</testng-results>

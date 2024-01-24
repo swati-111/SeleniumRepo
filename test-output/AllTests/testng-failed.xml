@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]">
+  <test thread-count="5" name="PositiveTests(failed)">
+    <classes>
+      <class name="com.herokuapp.theinetrnet.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="positiveLoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinetrnet.LoginTests -->
+    </classes>
+  </test> <!-- PositiveTests(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

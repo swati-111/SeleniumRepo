@@ -1,0 +1,44 @@
+<suite name="AllTests" verbose="1">
+
+	<test name="PositiveTests">
+
+		<classes>
+			<class name="com.herokuapp.theinetrnet.LoginTests">
+				<methods>
+					<include name="positiveLoginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativeUserNameTests">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="username" value="tomsmith1" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<parameter name="errorMsg" value="Your username is invalid!" />
+
+		<classes>
+			<class name="com.herokuapp.theinetrnet.LoginTests">
+				<methods>
+					<include name="negativeLoginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativePasswordTests">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="SuperSecretPassword!1" />
+		<parameter name="errorMsg" value="Your password is invalid!" />
+
+		<classes>
+			<class name="com.herokuapp.theinetrnet.LoginTests">
+				<methods>
+					<include name="negativeLoginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

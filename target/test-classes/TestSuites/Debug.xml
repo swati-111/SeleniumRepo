@@ -1,0 +1,16 @@
+<suite name="DebugTest" verbose="1">
+
+	<test name="PositiveTests">
+
+		<classes>
+			<class name="com.herokuapp.theinetrnet.ExceptionsTest">
+				<methods>
+					<include name="invalidElementStateExceptionTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite>
